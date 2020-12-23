@@ -1,0 +1,31 @@
+.social-buttons-team {
+  display: flex;
+}
+
+.social-buttons-team .item {
+  margin-right: 10px;
+  height: 44px;
+  width: 44px;
+}
+
+.social-link-team {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  fill: var(--svg-grey-color);
+  margin-right: 10px;
+  width: 44px;
+  height: 44px;
+  display: flex;
+  border-radius: 50%;
+}
+
+.social-buttons-team .item:last-child {
+  margin-right: 0px;
+}
+
+.social-link-team:hover,
+.social-link-team:focus {
+  background-color: var(--accent-color);
+  fill: var(--secondary-text-color);
+}
