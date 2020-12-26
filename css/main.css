@@ -36,18 +36,24 @@ textarea {
   resize: none;
 }
 
-.container {
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: 15px;
-  padding-right: 15px;
-  width: 1200px;
-}
-
 .list {
   list-style: none;
   margin: 0px;
   padding: 0px;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  -webkit-clip-path: inset(100%);
+          clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 
 .site-nav .link,
@@ -61,17 +67,6 @@ textarea {
 .port-button {
   -webkit-transition: color var(--timing-duration) var(--timing-function), fill var(--timing-duration) var(--timing-function), background-color var(--timing-duration) var(--timing-function), border-color var(--timing-duration) var(--timing-function);
   transition: color var(--timing-duration) var(--timing-function), fill var(--timing-duration) var(--timing-function), background-color var(--timing-duration) var(--timing-function), border-color var(--timing-duration) var(--timing-function);
-}
-
-.section-title {
-  margin-top: 0px;
-  margin-bottom: 50px;
-  font-family: Roboto, sans-serif;
-  color: var(--title-text-color);
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.16;
-  text-align: center;
 }
 
 /*! modern-normalize v1.0.0 | MIT License | https://github.com/sindresorhus/modern-normalize */
@@ -343,6 +338,25 @@ Add the correct display in Chrome and Safari.
 */
 summary {
   display: list-item;
+}
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  width: 1200px;
+}
+
+.section-title {
+  margin-top: 0px;
+  margin-bottom: 50px;
+  font-family: Roboto, sans-serif;
+  color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
 }
 
 .header {
