@@ -4,10 +4,10 @@
 
 .features {
   display: flex;
-}
 
-.features .item:last-child {
-  margin-right: 0px;
+  & .item:last-child {
+    margin-right: 0px;
+  }
 }
 
 .features .item {

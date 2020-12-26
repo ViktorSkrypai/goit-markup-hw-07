@@ -14,12 +14,19 @@
   font-family: Roboto, sans-serif;
 }
 
+.social-buttons .item {
+  margin-right: 10px;
+}
+
 .social-buttons {
   display: flex;
+
+  & .item:last-child {
+    margin-right: 0px;
+  }
 }
 
 .social-link {
-  margin-right: 10px;
   height: 44px;
   width: 44px;
   background-color: rgba(255, 255, 255, 0.1);
@@ -35,13 +42,9 @@
   align-items: center;
   display: flex;
   fill: var(--secondary-text-color);
-}
 
-.social-buttons .item:last-child {
-  margin-right: 0px;
-}
-
-.social-link:hover,
-.social-link:focus {
-  background-color: var(--accent-color);
+  &:hover,
+  &:focus {
+    background-color: var(--accent-color);
+  }
 }

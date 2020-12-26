@@ -12,10 +12,10 @@
 
 .our-team .item {
   margin-right: 30px;
-}
 
-.our-team .item:last-child {
-  margin-right: 0px;
+  &:last-child {
+    margin-right: 0px;
+  }
 }
 
 .our-team .title {

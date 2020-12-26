@@ -6,6 +6,10 @@
   margin-right: 10px;
   height: 44px;
   width: 44px;
+
+  &:last-child {
+    margin-right: 0px;
+  }
 }
 
 .social-link-team {
@@ -18,14 +22,10 @@
   height: 44px;
   display: flex;
   border-radius: 50%;
-}
 
-.social-buttons-team .item:last-child {
-  margin-right: 0px;
-}
-
-.social-link-team:hover,
-.social-link-team:focus {
-  background-color: var(--accent-color);
-  fill: var(--secondary-text-color);
+  &:hover,
+  &:focus {
+    background-color: var(--accent-color);
+    fill: var(--secondary-text-color);
+  }
 }

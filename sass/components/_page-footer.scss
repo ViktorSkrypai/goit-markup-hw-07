@@ -14,6 +14,11 @@
   line-height: 1.71;
   text-decoration: none;
   font-family: Roboto, sans-serif;
+
+  &:hover,
+  &:focus {
+    color: var(--accent-color);
+  }
 }
 
 .footer-contact {
@@ -24,27 +29,17 @@
   font-size: 14px;
   line-height: 1.71;
   text-decoration: none;
+
+  &:hover,
+  &:focus {
+    color: var(--accent-color);
+  }
 }
 
 .footer-adress .item {
   margin-bottom: 10px;
-}
 
-.footer-adress .item:last-child {
-  margin-bottom: 0px;
-}
-
-.link:hover,
-.link:focus {
-  color: var(--accent-color);
-}
-
-.footer-contact:hover,
-.footer-contact:focus {
-  color: var(--accent-color);
-}
-
-.footer-contact-adress:hover,
-.footer-contact-adress:focus {
-  color: var(--accent-color);
+  &:last-child {
+    margin-bottom: 0px;
+  }
 }

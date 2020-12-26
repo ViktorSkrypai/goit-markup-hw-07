@@ -18,10 +18,10 @@
   border-radius: 4px;
   fill: var(--svg-grey-color);
   cursor: pointer;
-}
 
-.client-link:hover,
-.client-link:focus {
-  fill: var(--accent-color);
-  border-color: var(--accent-color);
+  &:hover,
+  &:focus {
+    fill: var(--accent-color);
+    border-color: var(--accent-color);
+  }
 }

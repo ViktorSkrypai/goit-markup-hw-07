@@ -25,18 +25,18 @@
 
 .site-nav .item {
   margin-right: 50px;
-}
 
-.site-nav .item:last-child {
-  margin-right: 0px;
+  &:last-child {
+    margin-right: 0px;
+  }
 }
 
 .header-adress .item {
   margin-right: 50px;
-}
 
-.header-adress .item:last-child {
-  margin-right: 0px;
+  &:last-child {
+    margin-right: 0px;
+  }
 }
 
 .nav-svg {
@@ -60,11 +60,6 @@
   background-color: var(--accent-color);
 }
 
-.site-nav .link:hover,
-.site-nav .link:focus {
-  color: var(--accent-color);
-}
-
 .site-nav .link {
   display: block;
   position: relative;
@@ -77,6 +72,11 @@
   line-height: 1.14;
   letter-spacing: 0.02em;
   text-decoration: none;
+
+  &:hover,
+  &:focus {
+    color: var(--accent-color);
+  }
 }
 
 .header-adress .adress-link {
@@ -91,14 +91,14 @@
   font-family: Roboto, sans-serif;
   align-items: center;
   justify-content: center;
-}
 
-.adress-link:hover,
-.adress-link:focus {
-  color: var(--accent-color);
-}
+  &:hover,
+  &:focus {
+    color: var(--accent-color);
+  }
 
-.adress-link:hover .nav-svg,
-.adress-link:focus .nav-svg {
-  fill: var(--accent-color);
+  &:hover .nav-svg,
+  &:focus .nav-svg {
+    fill: var(--accent-color);
+  }
 }

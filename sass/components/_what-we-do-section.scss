@@ -6,6 +6,10 @@
 .works-photo .item {
   margin-right: 30px;
   position: relative;
+
+  &:last-child {
+    margin-right: 0px;
+  }
 }
 
 .what-we-do-description {
@@ -33,8 +37,4 @@
 
 .works-photo {
   display: flex;
-}
-
-.works-photo .item:last-child {
-  margin-right: 0px;
 }
