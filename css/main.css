@@ -18,7 +18,7 @@
 body {
   background-color: var(--primary-bg-color);
   color: var(--primary-text-color);
-  font-family: Roboto, sans-serif;
+  font-family: "Roboto", sans-serif;
   letter-spacing: 0.03em;
   outline: 2px solid black;
   margin: auto;
@@ -460,7 +460,7 @@ summary {
   line-height: 1.14;
   letter-spacing: 0.02em;
   text-decoration: none;
-  font-family: Roboto, sans-serif;
+  /*font-family: Roboto, sans-serif;*/
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
