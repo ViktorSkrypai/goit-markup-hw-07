@@ -18,7 +18,7 @@
 body {
   background-color: var(--primary-bg-color);
   color: var(--primary-text-color);
-  font-family: Roboto, sans-serif;
+  font-family: "Roboto", sans-serif, sans-serif;
   letter-spacing: 0.03em;
   outline: 2px solid black;
   margin: auto;
@@ -425,7 +425,7 @@ summary {
   position: relative;
   padding-top: 32px;
   padding-bottom: 32px;
-  font-family: Roboto, sans-serif;
+  font-family: "Roboto", sans-serif, sans-serif;
   color: var(--title-text-color);
   font-weight: 500;
   font-size: 14px;
@@ -449,7 +449,7 @@ summary {
   line-height: 1.14;
   letter-spacing: 0.02em;
   text-decoration: none;
-  font-family: Roboto, sans-serif;
+  font-family: "Roboto", sans-serif, sans-serif;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -469,7 +469,7 @@ summary {
 
 .logo {
   color: var(--title-text-color);
-  font-family: Raleway;
+  font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
@@ -497,7 +497,7 @@ summary {
   font-size: 26px;
   line-height: 1.19;
   text-decoration: none;
-  font-family: Raleway;
+  font-family: "Raleway", sans-serif;
   letter-spacing: 0.03em;
 }
 
@@ -516,7 +516,7 @@ summary {
   text-transform: uppercase;
   color: var(--secondary-text-color);
   margin-bottom: 20px;
-  font-family: Roboto, sans-serif;
+  font-family: "Roboto", sans-serif, sans-serif;
 }
 
 .social-buttons .item {
@@ -582,7 +582,7 @@ summary {
   font-size: 14px;
   line-height: 1.71;
   text-decoration: none;
-  font-family: Roboto, sans-serif;
+  font-family: "Roboto", sans-serif, sans-serif;
 }
 
 .footer-contact-adress:hover, .footer-contact-adress:focus {
@@ -593,7 +593,7 @@ summary {
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
-  font-family: Roboto, sans-serif;
+  font-family: "Roboto", sans-serif, sans-serif;
   color: var(--secondary-white-color);
   font-style: normal;
   font-size: 14px;
@@ -661,7 +661,7 @@ summary {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
-  font-family: Roboto, sans-serif;
+  font-family: "Roboto", sans-serif, sans-serif;
 }
 
 .image-conteiner {
@@ -730,7 +730,7 @@ summary {
   letter-spacing: 0.06em;
   margin-top: 0px;
   margin-bottom: 0px;
-  font-family: Roboto, sans-serif;
+  font-family: "Roboto", sans-serif, sans-serif;
 }
 
 .works-description {
@@ -739,7 +739,7 @@ summary {
   line-height: 1.87;
   margin-top: 0px;
   margin-bottom: 0px;
-  font-family: Roboto, sans-serif;
+  font-family: "Roboto", sans-serif, sans-serif;
 }
 
 .works-examples {
@@ -789,25 +789,25 @@ summary {
 
 .subscribe-form input::-webkit-input-placeholder {
   padding: 15px;
-  font-family: Roboto, sans-serif;
+  font-family: "Roboto", sans-serif, sans-serif;
   color: rgba(255, 255, 255, 0.6);
 }
 
 .subscribe-form input:-ms-input-placeholder {
   padding: 15px;
-  font-family: Roboto, sans-serif;
+  font-family: "Roboto", sans-serif, sans-serif;
   color: rgba(255, 255, 255, 0.6);
 }
 
 .subscribe-form input::-ms-input-placeholder {
   padding: 15px;
-  font-family: Roboto, sans-serif;
+  font-family: "Roboto", sans-serif, sans-serif;
   color: rgba(255, 255, 255, 0.6);
 }
 
 .subscribe-form input::placeholder {
   padding: 15px;
-  font-family: Roboto, sans-serif;
+  font-family: "Roboto", sans-serif, sans-serif;
   color: rgba(255, 255, 255, 0.6);
 }
 
@@ -838,6 +838,6 @@ summary {
   line-height: 1.875;
   letter-spacing: 0.06em;
   margin-right: 10px;
-  font-family: Roboto, sans-serif;
+  font-family: "Roboto", sans-serif, sans-serif;
 }
 /*# sourceMappingURL=portfolio.css.map */

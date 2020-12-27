@@ -12,7 +12,7 @@
   text-align: center;
   letter-spacing: 0.03em;
   margin-bottom: 12px;
-  font-family: Roboto, sans-serif;
+  font-family: $main-font, sans-serif;
 }
 
 .mod-label {
@@ -22,7 +22,7 @@
   letter-spacing: 0.01em;
   color: var(--primary-text-color);
   margin-bottom: 4px;
-  font-family: Roboto, sans-serif;
+  font-family: $main-font, sans-serif;
 }
 
 .form-field {

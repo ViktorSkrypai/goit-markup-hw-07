@@ -28,7 +28,7 @@
 .features .title {
   margin-top: 0px;
   margin-bottom: 10px;
-  font-family: Roboto, sans-serif;
+  font-family: $main-font, sans-serif;
   color: var(--title-text-color);
   font-weight: 700;
   font-size: 14px;
@@ -39,7 +39,7 @@
 .features-text {
   margin-top: 0px;
   margin-bottom: 0px;
-  font-family: Roboto, sans-serif;
+  font-family: $main-font, sans-serif;
   font-size: 14px;
   line-height: 1.71;
 }
